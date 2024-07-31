@@ -9,7 +9,6 @@
 }
 
 body { /*changed everything in body in index.html so the logo, links, etc*/
-    /*maybe work to find out how to make my name one font, links another*/
     font-family: "Poppins", sans-serif;
 }
 
@@ -38,7 +37,7 @@ nav, .nav-links {
 nav { /*moved my name/ logo away from top right*/
     justify-content: space-around;
     align-items: center;
-    height: 14vh;
+    height: 17vh;
 }
 
 .nav-links { /*put gaps b/w top right bar, made their size bigger*/
@@ -69,4 +68,42 @@ a:hover {
 
 .logo:hover {
     cursor: default;
+}
+
+/*HAMBURGER MENU*/
+
+#hamburger-nav {
+    display: none;
+}
+
+.hamburger-menu {
+    position: relative;
+    display: inline-block;
+}
+
+.hamburger-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 24px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.hamburger-icon span {
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    transition: all 0.3 ease-in-out;
+}
+
+.menu-links {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: white;
+    width: fit-content;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.3 ease-in-out;
 }
