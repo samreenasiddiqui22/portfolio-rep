@@ -372,16 +372,20 @@ a:hover {
   
   .project-img {
     border-radius: 2rem;
-    width: 90%;
-    height: 90%;
+    width: 80%;
+    height: 80%;
   }
   
   .project-title {
     margin: 1rem;
     color: black;
   }
+
+  #projects {
+    margin-bottom: 21rem; /* Adjust the value as needed */
+}
   
-  /*these two below are new*/
+  /*these two below are new so i could fix 6 in*/
   .about-containers {
     display: flex;
     flex-wrap: wrap;
@@ -402,4 +406,42 @@ a:hover {
 }
 
 
-  
+/*contact*/
+
+#contact {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 70vh;
+}
+
+.contact-info-upper-container {
+  display: flex;
+  justify-content: center;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  background: (250, 250, 250);
+  margin: 2rem auto;
+  padding: 0.5rem;
+}
+
+.contact-info-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1rem;
+}
+
+.contact-info-container p {
+  font-size: larger;
+}
+
+.contact-icon {
+  cursor: default;
+}
+
+.email-icon {
+  height: 2.5rem;
+}
