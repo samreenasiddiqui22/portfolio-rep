@@ -381,6 +381,25 @@ a:hover {
     color: black;
   }
   
+  /*these two below are new*/
+  .about-containers {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.details-container {
+    flex: 1 1 calc(33.333% - 2rem); /* 3 per row with gap considered */
+    box-sizing: border-box;
+    padding: 1.5rem;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid; 
+    border-color: rgb(163, 163, 163); 
+    text-align: center;
+}
 
 
   
