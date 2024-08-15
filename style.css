@@ -293,6 +293,10 @@ a:hover {
     border-radius: 2rem;
   }
 
+  #about h3, p {
+    font-size: smaller;
+  }
+
   .arrow {
     position: absolute;
     right: -5rem;
