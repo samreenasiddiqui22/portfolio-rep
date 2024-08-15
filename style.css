@@ -210,6 +210,10 @@ a:hover {
     gap: 1rem;
 }
 
+#profile {
+  margin-bottom: 5rem;
+}
+
 /*ICONS*/
 
 .icon {
@@ -297,6 +301,10 @@ a:hover {
     font-size: smaller;
   }
 
+  #about {
+    margin-bottom: 4rem;
+  }
+
   .arrow {
     position: absolute;
     right: -5rem;
@@ -346,7 +354,7 @@ a:hover {
   }
 
   #experience {
-    margin-bottom: 30rem; /* Adjust the value as needed */
+    margin-bottom: 20rem; /* Adjust the value as needed */
 }
 
 #experience .section__text__p1 {
@@ -475,4 +483,14 @@ footer {
 
 footer p {
   text-align: center;
+}
+
+.about-details-container {
+  width: 90%; /* Adjust the width as needed */
+  margin: 0 auto; /* Center the container */
+}
+
+.details-container {
+  padding: 10px; /* Reduce padding to make the containers smaller */
+  font-size: 0.9em; /* Slightly reduce the font size */
 }
