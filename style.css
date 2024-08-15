@@ -345,6 +345,10 @@ a:hover {
     margin-bottom: 30rem; /* Adjust the value as needed */
 }
 
+#experience .section__text__p1 {
+  font-size: 20px; /* This makes the "Explore My" text larger */
+}
+
   .experience-details-container {
     display: flex;
     justify-content: center;
